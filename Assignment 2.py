@@ -83,6 +83,27 @@ if user_input == "11":
     total = sum(my_list)
     print("Sum:")
     print(total)
+    
+#index of an element
+if user_input == "12":
+    user_ind = int(input("Enter the element that you what to know the index: "))
+    index = my_list.index(user_ind)
+    print("---------------------------------------------------------------")
+    print("The index is: ")
+    print(index)
+
+#Insert an element 
+if user_input == "13":
+    ins_ele = input("Enter an element you want to insert: ")
+    print("---------------------------------------------------------------")
+    pos_ele = int(input("Enter where you want to insert the element: "))
+    my_list.insert(pos_ele, ins_ele)
+    print("---------------------------------------------------------------")
+    print("The element has been in inserted! \n--------------------------------------------------------------- \nThis is the new array:")
+    print(my_list)
 
 else:
     print("Done")
+    
+print("---------------------------------------------------------------")    
+print("You're wish is GRANTED. >__<")
