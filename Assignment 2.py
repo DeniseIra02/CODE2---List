@@ -65,6 +65,24 @@ if user_input == "8":
     my_list.reverse()
     print("The element has been reversed! \n--------------------------------------------------------------- \nThis is the new array:")
     print(my_list)
+    
+#Find the smallest element
+if user_input == "9":
+    smallest = min(my_list)
+    print("Smallest element:")
+    print(smallest)
+
+#Find the largest element
+if user_input == "10":
+    largest = max(my_list)
+    print("Largest element:")
+    print(largest)
+    
+#Summation of all elements
+if user_input == "11":
+    total = sum(my_list)
+    print("Sum:")
+    print(total)
 
 else:
     print("Done")
