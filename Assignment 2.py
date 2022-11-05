@@ -19,3 +19,14 @@ print("---------------------------------------------------------------")
 if user_input == "1":
     length = len(my_list)
     print(length)
+
+#Add an element   
+if user_input == "2":
+    add_ele = input("Enter an element that you want to add:")
+    print("---------------------------------------------------------------")
+    my_list.append(add_ele)
+    print("The element has been added! \n--------------------------------------------------------------- \nThis is the new array:")
+    print(my_list)
+
+else:
+    print("Done")
