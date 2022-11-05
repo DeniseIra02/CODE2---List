@@ -42,5 +42,11 @@ if user_input == "4":
     print("The element has been deleted! \n--------------------------------------------------------------- \nThis is the new array:")
     print(my_list)
 
+#pop an element
+if user_input == "5":
+    my_list.pop()
+    print("The element has been deleted! \n--------------------------------------------------------------- \nThis is the new array:")
+    print(my_list)
+
 else:
     print("Done")
