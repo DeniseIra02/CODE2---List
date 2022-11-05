@@ -47,6 +47,18 @@ if user_input == "5":
     my_list.pop()
     print("The element has been deleted! \n--------------------------------------------------------------- \nThis is the new array:")
     print(my_list)
+    
+#Arrange in ascending order
+if user_input == "6":
+    my_list.sort()
+    print("The element has been in ascending order! \n--------------------------------------------------------------- \nThis is the new array:")
+    print(my_list)
+    
+#Arrange in descending order
+if user_input == "7":
+    my_list.sort(reverse=True)
+    print("The element has been in descending order! \n--------------------------------------------------------------- \nThis is the new array:")
+    print(my_list)    
 
 else:
     print("Done")
