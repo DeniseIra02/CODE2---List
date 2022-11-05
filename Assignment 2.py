@@ -35,5 +35,12 @@ if user_input == "3":
     print("The element has been merged! \n--------------------------------------------------------------- \nThis is the new array:")
     print(my_list)
 
+#delete an element
+if user_input == "4":
+    del_ele = input("Enter an element on the list you want to delete: ")
+    my_list.remove(int(del_ele))
+    print("The element has been deleted! \n--------------------------------------------------------------- \nThis is the new array:")
+    print(my_list)
+
 else:
     print("Done")
