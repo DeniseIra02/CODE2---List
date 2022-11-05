@@ -8,3 +8,14 @@ print("Menu: \n 1 -> Show how many elements \n 2 -> Add an element \n 3 -> Merge
 print("---------------------------------------------------------------")
 print("Please select in the menu (1-6)")
 print("---------------------------------------------------------------")
+
+#start codings
+my_list = [5, 3, 68, 40, 99, 8, 10, 35, 44, 101]
+
+user_input = input("What do you want to do: ")
+print("---------------------------------------------------------------")
+
+#Show how many elements  
+if user_input == "1":
+    length = len(my_list)
+    print(length)
