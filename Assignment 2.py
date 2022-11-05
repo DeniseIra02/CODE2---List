@@ -27,6 +27,13 @@ if user_input == "2":
     my_list.append(add_ele)
     print("The element has been added! \n--------------------------------------------------------------- \nThis is the new array:")
     print(my_list)
+    
+#Merge another list
+if user_input == "3":
+    list = input("Enter list at least 3 elements: ")
+    my_list.extend(list)
+    print("The element has been merged! \n--------------------------------------------------------------- \nThis is the new array:")
+    print(my_list)
 
 else:
     print("Done")
