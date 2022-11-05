@@ -60,5 +60,11 @@ if user_input == "7":
     print("The element has been in descending order! \n--------------------------------------------------------------- \nThis is the new array:")
     print(my_list)    
 
+#Reverse the elements
+if user_input == "8":
+    my_list.reverse()
+    print("The element has been reversed! \n--------------------------------------------------------------- \nThis is the new array:")
+    print(my_list)
+
 else:
     print("Done")
